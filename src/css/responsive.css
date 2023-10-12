@@ -1,0 +1,91 @@
+@media only screen and (max-width: 768px) {
+
+    .moto-header {
+        display: none;
+    }
+
+    header .bloco-img-header {
+        width: 5rem;
+    }
+
+#introduze h1 {
+    font-size: 3rem;
+    width: 30rem;
+}
+
+#motors-presents .motors-block {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  #motors-presents .motors-block .motors-text p {
+    text-align: center;
+  }
+
+  #specifications-features .content {
+    flex-direction: column;
+  }
+
+  .content .features {
+   margin-top: 60rem;
+   width: auto;
+  }
+
+  .specifications {
+   position: static;
+   font-size: 1.5rem;
+
+  }
+
+  .specifications ul {
+    line-height: 3.2rem;
+  
+  }
+
+    
+}
+
+@media only screen and (max-width: 1025px) {
+    .moto-header {
+        width: 42rem;
+    }
+
+    header .bloco-img-header {
+        width: 5rem;
+    }
+
+#introduze h1 {
+    font-size: 3rem;
+    width: 30rem;
+}
+
+#motors-presents .motors-block {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  #motors-presents .motors-block .motors-text p {
+    text-align: center;
+  }
+
+  #specifications-features .content {
+    flex-direction: column;
+  }
+
+  .content .features {
+   margin-top: 20rem;
+   width: auto;
+  }
+
+  .specifications {
+   position: static;
+   font-size: 1.5rem;
+
+  }
+
+  .specifications ul {
+    line-height: 3.2rem;
+  
+  }
+
+}

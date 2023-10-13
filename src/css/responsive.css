@@ -1,7 +1,7 @@
 @media only screen and (max-width: 768px) {
 
     .moto-header {
-        display: none;
+     display: none ;
     }
 
     header .bloco-img-header {
@@ -27,7 +27,7 @@
   }
 
   .content .features {
-   margin-top: 60rem;
+   margin-top: 45rem;
    width: auto;
   }
 
@@ -73,7 +73,7 @@
   }
 
   .content .features {
-   margin-top: 20rem;
+   margin-top: 38rem;
    width: auto;
   }
 

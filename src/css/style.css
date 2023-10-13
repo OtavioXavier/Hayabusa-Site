@@ -69,11 +69,19 @@ header ul {
   font-weight: 400;
 }
 
+header ul li a {
+  transition: color .3s;
+}
+
+header ul li a:hover {
+  color: var(--second--font-color);
+} 
+
 .moto-header {
   position: absolute;
   top: 0;
   right: 0;
-  max-width: 60rem;
+  max-width: 55rem;
   height: auto;
 }
 
@@ -115,9 +123,24 @@ header ul {
   background-color: #000000;
 }
 
-#motors-presents h1 {
+#motors-presents .tittle {
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: transform .3s;
+}
+
+#motors-presents .tittle .divisao {
+  width: 35rem;
+  height: 10rem;
+  border-top: 1px solid #717171;
+}
+
+#motors-presents .tittle h1 {
   font-size: 4.8rem;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 #motors-presents .motors-block {
@@ -125,6 +148,22 @@ header ul {
   justify-content: center;
   align-items: center;
   padding: 0 12rem;
+  gap: 2rem;
+  margin-bottom: 10rem;
+  transition: transform .3s;
+
+}
+
+#motors-presents .motors-block:hover {
+  border: #8d0915 2px solid;
+  border-radius: 15rem;
+}
+
+#motors-presents {
+  transition: transform 3s;
+}
+#motors-presents:hover > :not(:hover) {
+  transform: scale(.8);
 }
 
 #motors-presents .motors-block .motors-text {
@@ -150,9 +189,11 @@ header ul {
 #specifications-features h1 {
   text-align: center;
   font-size: 3.8rem;
+  margin-bottom: 2rem;
 }
 
 #specifications-features .content {
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -187,7 +228,14 @@ header ul {
 
 .specifications ul {
   line-height: 4.6rem;
+}
 
+.specifications ul li {
+  transition: color .3s;
+}
+
+.specifications ul li:hover{
+  color: var(--second--font-color);
 }
 
 .specifications img {

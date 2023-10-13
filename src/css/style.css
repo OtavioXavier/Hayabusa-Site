@@ -157,6 +157,7 @@ transition: transform .3s;
 #motors-presents .motors-block:hover {
   border: #8d0915 2px solid;
   border-radius: 15rem;
+  padding: 4rem;
 }
 
 #motors-presents {
